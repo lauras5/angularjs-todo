@@ -1,0 +1,50 @@
+.todo-list-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+  color: #f7f8df;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.paper-list {
+  background-color: #ffffa2;
+  padding: 20px;
+  flex-grow: 2;
+  margin-left: 20px;
+  box-shadow: 2px 2px 2px #535353;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 30px;
+}
+.new-item {
+  height: 45px;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  padding: 2px;
+  width: 100%;
+}
+.new-item:focus {
+  outline: none;
+}
+.btn-info {
+  display: block;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+form {
+  flex-grow: 1;
+}
+.jumbotron {
+  margin: 100px;
+  background: #77c2ce;
+  border-radius: 20px;
+}

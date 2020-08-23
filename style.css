@@ -22,7 +22,7 @@ li {
   flex-grow: 2;
   margin-left: 20px;
   box-shadow: 2px 2px 2px #535353;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Helvetica", sans-serif;
   font-size: 30px;
 }
 .new-item {
